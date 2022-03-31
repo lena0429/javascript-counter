@@ -30,6 +30,10 @@ btns.forEach((btn) => {
        if (count < 0) {
            value.style.color = 'blue';
        }
+
+       if (count == 0) {
+           value.style.color = '#222';
+       }
        value.textContent = count;
 
    });
